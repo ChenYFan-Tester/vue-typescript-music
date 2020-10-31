@@ -4,8 +4,12 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "start": "npm run serve"
   },
+      "engines": {
+        "node": "8.x"
+    },
   "dependencies": {
     "@types/better-scroll": "^1.12.1",
     "@types/fastclick": "^1.0.28",
@@ -40,11 +44,5 @@
     "typescript": "~3.5.3",
     "vue-template-compiler": "^2.6.10",
     "webpack-bundle-analyzer": "^3.6.1"
-  },
-    "scripts": {
-        "start": "npm run serve"
-    },
-    "engines": {
-        "node": "8.x"
-    },
+  }
 }
