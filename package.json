@@ -40,5 +40,11 @@
     "typescript": "~3.5.3",
     "vue-template-compiler": "^2.6.10",
     "webpack-bundle-analyzer": "^3.6.1"
-  }
+  },
+    "scripts": {
+        "start": "npm run serve"
+    },
+    "engines": {
+        "node": "8.x"
+    },
 }
